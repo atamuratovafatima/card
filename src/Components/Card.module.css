@@ -1,0 +1,41 @@
+.card_container{
+    margin: 0 auto;
+    color: rgb(82, 82, 82);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+
+    width: 20em;
+    height: auto;
+    margin: 1em auto;
+    border: 1px solid grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.card_image{
+    width: 20em;
+    margin: auto;
+}
+.card_image img{
+    width: 100%;
+    height: auto;
+}
+.card_description_container{
+    padding: 0.5em;
+}
+.card_description_name, .card_description_price{
+    margin: .3em auto;
+}
+.card_description_price{
+    font-weight: bold;
+    font-size: 16px;
+}
+.card_description_button{
+    text-align: center;
+}
+.card_description_button a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
